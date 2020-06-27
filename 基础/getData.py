@@ -15,6 +15,6 @@ class GetData:
         # 打开文件
         with open("./Data" + os.sep + name, "r", encoding="utf-8") as f:
             # yaml读取文件
-            data = yaml.safe_load(f)
+            return yaml.safe_load(f)
 
 
