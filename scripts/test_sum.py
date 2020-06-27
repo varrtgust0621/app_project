@@ -1,7 +1,7 @@
 import pytest
 import os
 import yaml
-from Base.getData import GetData
+from Base.get_data import GetData
 
 # 定义读取yaml数据函数
 def sum_data():

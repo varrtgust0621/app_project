@@ -17,4 +17,3 @@ class GetData:
             # yaml读取文件
             return yaml.safe_load(f)
 
-
